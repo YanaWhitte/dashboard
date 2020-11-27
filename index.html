@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="holder">
+        <aside class="main-sidebar">
+            <header class="aside-header">
+                <div class="logo">IMPEKABLE</div>
+            </header>
+            <section class="main-nav">
+                <div class="row">
+                    <a href="#"><img src="img/home-icon.svg" alt="">Home</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/dashboard-icon.svg" alt="">Dashboard</a>
+                </div>
+                <div class="selected row">
+                    <a href="#"><img src="img/inbox-icon.svg" alt="">Inbox</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/products-icon.svg" alt="">Products</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/invoices-icon.svg" alt="">Invoices</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/customers-icon.svg" alt="">Customers</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/chat-room-icon.svg" alt="">Chat Room</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/calendar-icon.svg" alt="">Calendar</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/help-center-icon.svg" alt="">Help Center</a>
+                </div>
+                <div class="row">
+                    <a href="#"><img src="img/settings-icon.svg" alt="">Settings</a>
+                </div>
+            </section>
+        </aside>
+        <main>
+            <header class="main-header shadow">
+                <div class="search">
+                    <img src="img/search-icon.svg" alt="search" width="16" height="16">
+                    <input type="text" class="search-input" placeholder="Search transactions, invoices or help" />
+                </div>
+                <div class="user-panel">
+                    <div class="icon-panel">
+                        <img src="img/support-icon.svg" alt="support" width="16" height="16">
+                        <img src="img/chat-icon.svg" alt="chat" width="16" height="16">
+                        <img src="img/notification-icon.svg" alt="notification" width="19" height="21">
+                    </div>
+                    <div class="separator"></div>
+                    <div class="user-name">
+                        <span>John Doe</span>
+                        <img src="img/small-down.svg" alt="down" width="11" height="7">
+                        <img src="img/Avatar.png" class="user-avatar" alt="avatar" width="38" height="38">
+                    </div>
+
+                </div>
+            </header>
+
+            <section class="all-content">
+
+                <section class="overview">
+                    <div>
+                        <h2>Overview</h2>
+                        <div class="row">
+                            <div class="overview-block shadow">
+                                <div class="overview-content">
+                                    <p class="title">Total Views</p>
+                                    <p class="number">246K</p>
+                                    <div class="percent row">
+                                        <img src="img/down-arrow.svg" alt="" width="8" height="10">
+                                        <p class="percent-number">13.8%</p>
+                                        <!-- <div class="graph graph-blue"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overview-block shadow">
+                                <div class="overview-content">
+                                    <p class="title">Products Sold</p>
+                                    <p class="number">2453</p>
+                                    <div class="percent green row">
+                                        <img src="img/up-arrow.svg" alt="" width="8" height="10">
+                                        <p class="percent-number">13.8%</p>
+                                        <!-- <div class="graph graph-purple"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overview-block shadow">
+                                <div class="overview-content">
+                                    <p class="title">Total Earnings</p>
+                                    <p class="number">$39K</p>
+                                    <div class="percent row">
+                                        <img src="img/down-arrow.svg" alt="" width="8" height="10">
+                                        <p class="percent-number">13.8%</p>
+                                        <!-- <div class="graph graph-green"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="statistics shadow">
+                    <div class="statistics-block">
+                        <div class="title-and-select row">
+                            <h3 class="blocks-title">Statistics</h3>
+                            <div class="select shadow row">
+                                <p>Last 6 months</p>
+                                <img src="img/small-down.svg" alt="down" width="11" height="7">
+                            </div>
+                            <!-- <canvas id="myCanvas" width="1135" height="830"></canvas>
+                            <script type="text/javascript" src="script.js"></script> -->
+                        </div>
+                    </div>
+                </section>
+
+                <div class="referrer-and-map row">
+                    <section class="referrer shadow">
+                        <h3 class="blocks-title">Referrer</h3>
+                        <div class="referrer-table">
+                            <table>
+                                <tr class="name-row">
+                                    <th>Location</th>
+                                    <th>Views</th>
+                                    <th>Sales</th>
+                                    <th>Conversion</th>
+                                    <th>Total</th>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>3746</td>
+                                    <td>752</td>
+                                    <td>43%</td>
+                                    <td>$19,291</td>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>8126</td>
+                                    <td>728</td>
+                                    <td>32%</td>
+                                    <td>$17,638</td>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>8836</td>
+                                    <td>694</td>
+                                    <td>28%</td>
+                                    <td>$16,218</td>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>1173</td>
+                                    <td>645</td>
+                                    <td>24%</td>
+                                    <td>$14,421</td>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>2739</td>
+                                    <td>539</td>
+                                    <td>20%</td>
+                                    <td>$12,370</td>
+                                </tr>
+                                <tr>
+                                    <td>adobe.com</td>
+                                    <td>1762</td>
+                                    <td>432</td>
+                                    <td>18%</td>
+                                    <td>$9,928</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="show-more">Show More</a>
+                    </section>
+
+                    <section class="details-on-map shadow">
+                        <div class="title-and-list row">
+                            <h3 class="blocks-title">Details on Map</h3>
+                            <a href="#">Show All List</a>
+                        </div>
+                        <!-- map -->
+                        <div class="map"></div>
+                        <div class="map-table">
+                            <table>
+                                <tr>
+                                    <td class="country">Canada</td>
+                                    <td class="price">$29,193</td>
+                                </tr>
+                                <tr>
+                                    <td class="country">Brazil</td>
+                                    <td class="price">$18,832</td>
+                                </tr>
+                                <tr>
+                                    <td class="country">Egypt</td>
+                                    <td class="price">$19,758</td>
+                                </tr>
+                                <tr>
+                                    <td class="country">Russia</td>
+                                    <td class="price">$23,078</td>
+                                </tr>
+                                <tr>
+                                    <td class="country">China</td>
+                                    <td class="price">$29,193</td>
+                                </tr>
+                                <tr>
+                                    <td class="country">Australia</td>
+                                    <td class="price">$37,760</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="products-and-details row">
+                    <section class="top-products shadow">
+                        <h3 class="blocks-title">Top Products</h3>
+
+                        <div class="product-table">
+                            <table>
+                                <tr class="name-row">
+                                    <th>Product</th>
+                                    <th>Availability</th>
+                                    <th>Total</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/Product-1.Img.png" alt="" width="42" height="42">Women’s Vintage Peacoat</td>
+                                    <td>
+                                        <p class="in-stock">320 In Stock</p>
+                                    </td>
+                                    <td>$29,192</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/Product-2.Img.png" alt="" width="42" height="42">Women’s Oatmeal Sweater</td>
+                                    <td>
+                                        <p class="in-stock">Out of Stock</p>
+                                    </td>
+                                    <td>$29,192</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/Product-3.Img.png" alt="" width="42" height="42">Women’s Denim Shirt</td>
+                                    <td>
+                                        <p class="in-stock">3 In Stock</p>
+                                    </td>
+                                    <td>$29,192</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/Product-4.Img.png" alt="" width="42" height="42">Women’s Vintage Peacoat</td>
+                                    <td>
+                                        <p class="in-stock">3 In Stock</p>
+                                    </td>
+                                    <td>$29,192</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="show-more">Show More</a>
+                    </section>
+
+                    <section class="quick-details shadow">
+                        <h3 class="blocks-title">Quick Details</h3>
+
+                        <div class="details-table">
+                            <table>
+                                <tr>
+                                    <td><img src="img/quick-details-1.svg"></td>
+                                    <td class="orders">290 New Customers</td>
+                                    <td class="status">Last 24 Hours</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/quick-details-2.svg"></td>
+                                    <td class="orders">490 Orders</td>
+                                    <td class="status">Awaiting Process</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/quick-details-3.svg"></td>
+                                    <td class="orders">120 Orders</td>
+                                    <td class="status">On Hold</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/quick-details-4.svg"></td>
+                                    <td class="orders">490 Orders</td>
+                                    <td class="status">Low in Stock</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="img/quick-details-5.svg"></td>
+                                    <td class="orders">42 Items</td>
+                                    <td class="status">Out of Stock</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </section>
+                </div>
+
+            </section>
+        </main>
+    </section>
+</body>
